@@ -1,7 +1,6 @@
 $$
 \begin{align*}
-X_{example} \ &= \begin{bmatrix} x_{1}\\x_{2}\\x_{3}\\ \vdots\\ x_{n}\\\end{bmatrix}\\
-Weights_{neuron} &= \begin{bmatrix} w_{1}\\w_{2}\\w_{3}\\ \vdots\\ w_{n}\\\end{bmatrix}\\
+X_{example} \ &= \begin{bmatrix} x_{1}\\x_{2}\\x_{3}\\ \vdots\\ x_{n}\\\end{bmatrix},Weights_{neuron} &= \begin{bmatrix} w_{1}\\w_{2}\\w_{3}\\ \vdots\\ w_{n}\\\end{bmatrix}\\
 z\ &= X_{input} \odot Weights + bias      \\
 a\ &= \sigma(z)                           \\
 X_{transformed}\ &= \begin{bmatrix} a_{1} \\ a_{2} \\ a_{3} \vdots \\ a_{neurons}\end{bmatrix}\\
