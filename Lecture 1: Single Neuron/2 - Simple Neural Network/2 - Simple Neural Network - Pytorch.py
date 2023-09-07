@@ -3,7 +3,7 @@ architecture = [3, 5, 4, 2]
 import torch
 
 # input Data
-X =  Torch.Tensor([+1.2, -5.1, +2.1])
+X =  torch.Tensor([+1.2, -5.1, +2.1])
 
 model = torch.nn.Sequential(
   
