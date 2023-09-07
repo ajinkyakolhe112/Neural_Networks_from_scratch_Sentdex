@@ -1,4 +1,4 @@
-architecture = [3, 4, 4, 2]
+architecture = [3, 5, 4, 2]
 
 import torch
 
@@ -17,5 +17,5 @@ y2 = torch.nn.relu( z2 )
 # output layer
 x3 = y2 # output of layer 2 -> input of layer 3
 z3 = torch.dot(x3, w3.T) + b3
-y_hat = torch.exp( z3 ) /               \
+y_hat = torch.exp( z3 ) / 			\
 		torch.sum( torch.exp(z3) )

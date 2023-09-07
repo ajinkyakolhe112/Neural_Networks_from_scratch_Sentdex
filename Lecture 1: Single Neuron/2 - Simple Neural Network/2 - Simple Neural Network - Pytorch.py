@@ -1,4 +1,4 @@
-architecture = [3, 4, 4, 2]
+architecture = [3, 5, 4, 2]
 
 import torch
 
@@ -6,8 +6,14 @@ import torch
 X =  Torch.Tensor([+1.2, -5.1, +2.1])
 
 model = torch.nn.Sequential(
-  nn.Linear(in_features= 3, out_features= 4), nn.ReLU(),
-  nn.Linear(in_features= 4, out_features= 4), nn.ReLU(),
+  
+  # hidden layer 1
+  nn.Linear(in_features= 3, out_features= 4), nn.ReLU(),    
+  
+  # hidden layer 2
+  nn.Linear(in_features= 4, out_features= 4), nn.ReLU(),    
+  
+  # output layer
   nn.Linear(in_features= 4, out_features= 2), nn.Softmax(),
 )
 
