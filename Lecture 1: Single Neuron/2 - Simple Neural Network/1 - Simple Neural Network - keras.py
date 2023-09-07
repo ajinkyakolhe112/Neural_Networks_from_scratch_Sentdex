@@ -13,10 +13,10 @@ model = keras.models.Sequential([
   # hidden layer 1
   keras.layers.Dense(units = 4, activation="relu"),
   # hidden layer 2
-  keras.layers.Dense(units = 4, activation="relu"),    
+  keras.layers.Dense(units = 4, activation="relu"),
   
   # output layer
-  keras.layers.Dense(units = 2, activation="softmax"), 
+  keras.layers.Dense(units = 2, activation="softmax"),
 ])
 
 # forward pass
