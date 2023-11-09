@@ -6,6 +6,9 @@ bias = 3.0
 W = (weights, bias)
 
 # Weighted Sum
+# w[0] = + 3.1
+# w[1] = - 2.1
+# w[2] = +8.7
 weighted_sum = \
   inputs[0] * weights[0] + \
   inputs[1] * weights[1] + \

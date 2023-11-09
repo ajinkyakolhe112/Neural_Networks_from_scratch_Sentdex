@@ -9,14 +9,14 @@ z = np.dot(inputs, weights.T) + biases
 # why np array. Because data structure is list. Its not matrix. Doesn't have matrix functions like Transpose ... etc
 inputs  = np.array( [    
                         [ 1.0 , 2  , 3 , 2.5   ],
-                        [ 5 , 5  , 6 , 2     ],
+                        [ 5   , 5  , 6 , 2     ],
                     ])  
 weights = np.array( [   
-                        [0.1, -3.2  , 0.9   , 0.2   ],
-                        [2  , 0.2   , 3.2   , -5    ],
-                        [0  ,   0   ,   0   , 10    ],
-                        [5  , 5     , 0     , 0     ],
-                        [0.24,  0.25, 0.25  , 0.25  ] 
+                        [0.1 , -3.2  , 0.9   , 0.2   ],
+                        [2   , 0.2   , 3.2   , -5    ],
+                        [0   ,   0   ,   0   , 10    ],
+                        [5   ,   5   , 0     , 0     ],
+                        [0.24,  0.25 , 0.25  , 0.25  ] 
                     ]) 
 biases  = np.array( [
                         1,
