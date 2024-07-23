@@ -1,4 +1,4 @@
-# Neural Networks from Scratch by Sentdex ![](https://geps.dev/progress/0)
+# Neural Networks from Scratch by Sentdex ![](https://geps.dev/progress/14)
 Doing Neural Networks course by Sentdex.
 - [Youtube Course *(Free)*](https://www.youtube.com/playlist?list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3)
 - [Animations *(Free)*](https://nnfs.io/neural_network_animations)
@@ -11,7 +11,7 @@ Doing Neural Networks course by Sentdex.
 4. Course follows philosophy of <u>incremental complexity</u>. It makes learning easier, we start with easier and slowly increase complexity and slowly increase our mastery, eventually everything is easy. Other way is a very steep slope, great if you can complete it, but low probability of actually completing it. That's why a better starting point that Andrew Ng Machine Learning or Deep Learning Specialization
 
 ### [Youtube Playlist](https://www.youtube.com/playlist?list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3)
-- [ ] 1. `Lecture 1: Introduction & Single Neuron`
+- [x] 1. `Lecture 1: Introduction & Single Neuron`
 - [ ] 2. `Lecture 2: Coding a Layer`
 - [ ] 3. `Lecture 3: The Dot Product`
 - [ ] 4. `Lecture 4: Batches, Layers and Objects`
